@@ -1,0 +1,56 @@
+# dependencies
+node_modules/
+mobile-app/node_modules/
+backend/node_modules/
+
+# Expo
+mobile-app/.expo/
+mobile-app/dist/
+mobile-app/web-build/
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+
+# local env files
+.env
+.env.*
+.env*.local
+backend/.env
+
+# typescript
+*.tsbuildinfo
+
+# generated / sample
+app-example/
+
+# generated native folders
+/ios
+/android
+mobile-app/ios/
+mobile-app/android/
+
+# backend
+backend/uploads/
+
+# ML models
+backend/waste_model.tflite
+
+# editor folders
+.claude/
+.vscode/
